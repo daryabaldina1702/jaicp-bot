@@ -4,7 +4,10 @@ theme: /
 
     state: Start
         q!: $regex</start>
-        a: Начнём.
+        a: Начнём. Выберите функциона:
+        buttons:
+            "/hello" -> /hello
+        
 
     state: Hello
         intent!: /hello

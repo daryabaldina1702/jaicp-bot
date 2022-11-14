@@ -4,9 +4,7 @@ theme: /
 
     state: Start
         q!: $regex</start>
-        a: Начнём. Выберите функциона:
-        buttons:
-            "/hello" -> /hello
+        a: Начнём. Чтобы начать работаь с ботом пиши /hello
         
 
     state: Hello
